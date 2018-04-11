@@ -1,6 +1,7 @@
 const TeleBot = require('telebot');
 const take_screenshot = require('./take_screenshot');
-const bot = new TeleBot('575409131:AAFyltorcg5vg3e9Z7IrfH7bpcOdwBqJj6w');
+const token = process.env.BOT_TOKEN;
+const bot = new TeleBot(token);
 
 bot.on('text', msg => {
     let id = msg.from.id;
