@@ -1,0 +1,15 @@
+{
+  "name": "siteshotbot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mikhail Baranov <baranov@charge.auto>",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "puppeteer": "^1.2.0",
+    "telebot": "^1.2.6"
+  }
+}
